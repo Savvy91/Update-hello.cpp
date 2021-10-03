@@ -2,13 +2,8 @@
 using namespace std;
 int main()
 {
-    int a, b , c;
-
-    cout<<"enter 2 no.s ";
-    
-    cin>>a>>b;
-    c=a+b;
-    cout<<"sum of two no.s is "<<c;
+   cout<<"HELLO WORLD";
+   
     return 0;
 
 }
