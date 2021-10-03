@@ -4,3 +4,15 @@
   box-sizing: border-box;
   color: #324e63;
 }
+int main()
+{
+    int a, b , c;
+
+    cout<<"enter 2 no.s ";
+    
+    cin>>a>>b;
+    c=a+b;
+    cout<<"sum of two no.s is "<<c;
+    return 0;
+
+}
