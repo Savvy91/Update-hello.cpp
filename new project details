@@ -35,6 +35,19 @@
       <div class="icon">
         <a href="https://instagram.com/zainhunmein" target="_blank"
           ><i class="fab fa-instagram fa-2x"></i
+          
+          
+          
+          step 1 : open any IDE
+          step 2: choose a language of yourchoice 
+          step 3 : #include<iostream>
+                   using namespace std;
+                   
+                   int a, b;
+                   
+                   cin << "value of a";
+                   endl;
+       
         ></a>
       </div>
       <div class="icon">
