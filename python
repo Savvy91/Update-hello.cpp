@@ -1,0 +1,24 @@
+import string
+import random
+
+# Guess the Word Game
+MAX_INCORRECT_GUESSES = 6
+
+def main():
+    show_game_description()
+    draw_hangman_game(0)
+    play_game()
+                
+def play_game():
+    incorrect_guess_counter = 0
+    correct_letters = list(WINNING_WORD)
+    correct_guesses = []
+    incorrect_guess_letters = []
+    while incorrect_guess_counter < 6:
+    # Get user_letter_guess
+        user_letter_guess = input('Guess a letter! (a-z): ')
+        # If user enters a capital letter, lowercase it
+        user_letter_guess = user_letter_guess.lower()
+        # break out of program
+        if user_letter_guess == '':
+            break
